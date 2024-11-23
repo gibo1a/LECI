@@ -1,0 +1,7 @@
+same_shared_key = client_private_key.exchange(ec.ECDH(), server_private_key.public_key())
+
+# Perform key derivation.
+
+same_derived_key = HKDF(algorithm=hashes.SHA256(),length=32,salt=None,info=b'handshake data',).derive(same_shared_key)
+
+derived_key == same_derived_key
