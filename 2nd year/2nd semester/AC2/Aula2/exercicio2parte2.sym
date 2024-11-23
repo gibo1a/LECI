@@ -1,0 +1,19 @@
+GAS LISTING exercicio2parte2.s 			page 1
+
+
+DEFINED SYMBOLS
+  exercicio2parte2.s:1      *ABS*:000000000000000c RESET_CORE_TIMER
+  exercicio2parte2.s:2      *ABS*:000000000000000b READ_CORE_TIMER
+  exercicio2parte2.s:3      *ABS*:0000000000000003 PUT_CHAR
+  exercicio2parte2.s:4      *ABS*:0000000000000006 PRINT_INT
+  exercicio2parte2.s:8      .text:0000000000000000 main
+  exercicio2parte2.s:14     .text:0000000000000014 while
+  exercicio2parte2.s:64     .text:00000000000000dc delay
+  exercicio2parte2.s:24     .text:0000000000000040 end_if
+  exercicio2parte2.s:22     .text:000000000000003c if
+  exercicio2parte2.s:29     .text:0000000000000058 end_if1
+  exercicio2parte2.s:27     .text:0000000000000054 if1
+  exercicio2parte2.s:71     .text:00000000000000f4 delay_while
+  exercicio2parte2.s:77     .text:0000000000000110 end_delay_while
+
+NO UNDEFINED SYMBOLS

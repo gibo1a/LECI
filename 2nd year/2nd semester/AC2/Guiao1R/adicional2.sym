@@ -1,0 +1,26 @@
+GAS LISTING adicional2.s 			page 1
+
+
+DEFINED SYMBOLS
+        adicional2.s:2      *ABS*:0000000000000014 SIZE
+        adicional2.s:3      *ABS*:0000000000000008 printStr
+        adicional2.s:4      *ABS*:0000000000000009 readStr
+        adicional2.s:5      *ABS*:0000000000000006 printInt
+        adicional2.s:6      *ABS*:0000000000000007 printInt10
+        adicional2.s:7      .data:0000000000000000 str1
+        adicional2.s:8      .data:0000000000000015 str2
+        adicional2.s:9      .data:000000000000002a str3
+        adicional2.s:10     .data:0000000000000053 str4
+        adicional2.s:11     .data:0000000000000069 str5
+        adicional2.s:14     .text:0000000000000000 main
+        adicional2.s:64     .text:00000000000000ec strlen
+        adicional2.s:75     .text:0000000000000110 strcpy
+        adicional2.s:87     .text:0000000000000134 strcat
+        adicional2.s:107    .text:0000000000000178 strcmp
+        adicional2.s:67     .text:00000000000000f4 strlen_for
+        adicional2.s:78     .text:0000000000000118 strcpy_for
+        adicional2.s:94     .text:000000000000014c strcat_for
+        adicional2.s:110    .text:0000000000000180 strcmp_for
+        adicional2.s:117    .text:000000000000019c end_for
+
+NO UNDEFINED SYMBOLS

@@ -1,0 +1,20 @@
+GAS LISTING Parte2.s 			page 1
+
+
+DEFINED SYMBOLS
+            Parte2.s:2      *ABS*:000000000000bf88 ADDR_BASE_HI
+            Parte2.s:3      *ABS*:0000000000006100 TRISE
+            Parte2.s:4      *ABS*:0000000000006110 PORTE
+            Parte2.s:5      *ABS*:0000000000006120 LATE
+            Parte2.s:6      *ABS*:0000000000006040 TRISB
+            Parte2.s:7      *ABS*:0000000000006050 PORTB
+            Parte2.s:8      *ABS*:0000000000006060 LATB
+            Parte2.s:9      *ABS*:000000000000000c RESET_CORE_TIMER
+            Parte2.s:10     *ABS*:000000000000000b READ_CORE_TIMER
+            Parte2.s:13     .text:0000000000000000 main
+            Parte2.s:24     .text:0000000000000028 while
+            Parte2.s:40     .text:000000000000005c delay
+            Parte2.s:47     .text:0000000000000074 delay_while
+            Parte2.s:53     .text:0000000000000090 end_delay_while
+
+NO UNDEFINED SYMBOLS

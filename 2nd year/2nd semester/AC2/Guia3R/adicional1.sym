@@ -1,0 +1,15 @@
+GAS LISTING adicional1.s 			page 1
+
+
+DEFINED SYMBOLS
+        adicional1.s:2      *ABS*:00000000bf886040 TRISB
+        adicional1.s:3      *ABS*:00000000bf886050 PORTB
+        adicional1.s:4      *ABS*:00000000bf886100 TRISE
+        adicional1.s:5      *ABS*:00000000bf886120 LATE
+        adicional1.s:6      *ABS*:00000000bf8860c0 TRISD
+        adicional1.s:7      *ABS*:00000000bf8860e0 LATD
+        adicional1.s:10     .text:0000000000000000 main
+        adicional1.s:28     .text:000000000000002c while
+        adicional1.s:41     .text:0000000000000064 while_cnt
+
+NO UNDEFINED SYMBOLS

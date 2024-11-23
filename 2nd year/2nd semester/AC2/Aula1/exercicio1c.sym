@@ -1,0 +1,14 @@
+GAS LISTING exercicio1c.s 			page 1
+
+
+DEFINED SYMBOLS
+       exercicio1c.s:3      .data:0000000000000000 str1
+       exercicio1c.s:4      .data:0000000000000029 str2
+       exercicio1c.s:5      .data:0000000000000046 str3
+       exercicio1c.s:6      .data:0000000000000059 str4
+       exercicio1c.s:7      .data:000000000000006d str5
+       exercicio1c.s:8      .data:000000000000008c str6
+       exercicio1c.s:11     .text:0000000000000000 main
+       exercicio1c.s:12     .text:0000000000000000 while
+
+NO UNDEFINED SYMBOLS
