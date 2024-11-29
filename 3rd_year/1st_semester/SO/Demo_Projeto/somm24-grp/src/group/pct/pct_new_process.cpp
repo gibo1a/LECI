@@ -21,7 +21,27 @@ namespace group
         require(memSize > 0, "Bad memory size");
 
         /* TODO POINT: Replace next instruction with your code */
-        throw Exception(ENOSYS, __func__);
+        static int pids = 0;
+        PctNode *new_node = (PctNode*)malloc(sizeof(PctNode));
+        PctBlock new_block = {.pid = pids++, 
+                                .state = NEW, 
+                                .storeTime = UNDEF_TIME, 
+                                .startTime= UNDEF_TIME, 
+                                .finishTime = UNDEF_TIME,
+                                .memStart = UNDEF_ADDRESS, 
+                                .admissionTime = admissionTime,
+                                .lifetime = lifetime,
+                                .memSize = memSize};
+
+        new_node->pcb = new_block;
+
+        PctNode *current_node = pctList;
+        while(current_node->pcb.pid < new_block.pid){
+            current_node = current_node->next;
+        }
+        PctNode *next_node = current_node->next;
+        current_node->next = new_node;
+        new_node->next = next_node;
     }
 
 // ================================================================================== //

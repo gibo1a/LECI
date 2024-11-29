@@ -20,7 +20,15 @@ namespace group
         require(fout != NULL and fileno(fout) != -1, "fout must be a valid file stream");
 
         /* TODO POINT: Replace next instruction with your code */
-        throw Exception(ENOSYS, __func__);
+        PctNode *current_node = pctList;
+
+        while (current_node->next != NULL){
+            int print = fprintf(fout,""); //perguntar ao stor o que é suposto imprimir
+            current_node = current_node->next; 
+            if(print < 0){throw Exception(1,"pctPrint","Exception");}
+
+        }
+        
     }
 
 // ================================================================================== //

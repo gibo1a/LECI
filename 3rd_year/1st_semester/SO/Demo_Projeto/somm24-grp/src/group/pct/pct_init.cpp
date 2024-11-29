@@ -16,7 +16,7 @@ namespace group
         require(pctList == UNDEF_PCT_NODE, "The PCT linked list must not exist");
         
         /* TODO POINT: Replace next instruction with your code */
-        throw Exception(ENOSYS, __func__);
+        pctList = NULL;
     }
 
 // ================================================================================== //

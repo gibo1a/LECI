@@ -16,7 +16,7 @@ namespace group
         require(pctList != UNDEF_PCT_NODE, "Module is not in a valid open state!");
         
         /* TODO POINT: Replace next instruction with your code */
-        throw Exception(ENOSYS, __func__);
+        pctList = NULL;
     }
 
 // ================================================================================== //
