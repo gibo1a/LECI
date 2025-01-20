@@ -70,24 +70,5 @@ classdef MinHash
             %Sets{1} = unique(shingles);
             Sets = unique(shingles);
         end
-        
-        
-        function [topMovies, topDistances] = findSimilarMovies(filmNames, userInput, shingle_size, topN)    
-            Sets = createShingles(filmNames, shingle_size);  
-            
-            inputShingles = MinHash.createShingles({userInput}, shingle_size); 
-            
-            N = 1e7;
-            k = 200;
-            v = inicHashFunctions(N, k);
-            matriz_assinaturas = MinHash.assinaturas(Sets, v, k);
-            inputMatrizAssinaturas = MinHash.assinaturas(inputShingles, v, k);
-        
-            distSign = MinHash.distanciaAssinatura([inputMatrizAssinaturas matriz_assinaturas], k);
-            
-            [sortedDistances, sortedIndices] = sort(distSign(1, 2:end)); 
-            topMovies = filmNames(sortedIndices(1:topN)); 
-            topDistances = sortedDistances(1:topN);
-        end
     end
 end

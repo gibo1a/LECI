@@ -1,0 +1,41 @@
+1)
+
+b) As operações wait e signal são utilizadas para concretizar exclusão mútua e impedir race conditions, 
+quando uma thread tenta aceder a um recurso que está ser utilizado por outra thread a thread é bloqueada e colocada fora do monitor usando a função wait, 
+quando a thread que está a utilizar o recurso deixa de ter posso do mesmo utiliza a função signal para informar a um dos threas em wait
+de que pode tomar posse do recurso.  
+
+As operações down e up têm funcionalidades simiares á wait e signal, quando uma thread tenta aceder a um recurso, 
+utiliza a função down,se o recurso está a ser utilizado por outra thread, a thread que tentou aceder ao recurso é bloqueada
+e colocada numa fila de processos em espera por acesso ao recurso, quando a thread que está em posse do recurso termina a sua utilizão
+usa a função up e é dado acesso ao recurso ao processo mais antigo na fila de espera.
+
+2) 
+
+a) O processo P1 é colocado no estado RUN duas unidades de tempo depois o mesmo ocorre para o processo P2,
+quando o processo P3 entra no estado RUN, o processo P1 é preempted porque o processo P3 tem maior prioridade
+e colocado no estado BLOCKED. Descrever o resto. Desenhar diagrama.
+
+b)
+
+P3  |                         ___________            ___________             ___________
+    |                        |           |__________|           |___________|           |
+    |
+    |             ___________                 ______
+P2  |            |           |_______________|      | 
+    |
+    |____________                         ___                     ___________             ___
+P1  |            |_______________________|   |___________________|           |___________|   |
+____|___________________________________________________________________________________________
+            2       4       6       8       10      12      14      16      18      20      22
+
+
+1x
+2x
+3x
+1x
+2x
+3x
+1X
+3x
+1x

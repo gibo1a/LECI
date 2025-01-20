@@ -1,0 +1,30 @@
+Grupo 1
+
+1)
+
+Round Robin, SPN, FCFS.
+As políticas FCFS e SPN não são preemptive. A política Round Robin é preemptive, 
+sendo que na Round Robin se o tempo de execucão permitido for excedido é colocado outro processo em execução e o atual é interrompido.
+A melhor política para sistemas interativos seria Round Robin já que melhora o tempo de resposta.
+
+Grupo 2
+
+1)
+
+Os registos P e PT são utilizados para adicionar a base onde começa o espaço de endereçamento do processo.
+
+A page table contém o o endereço do frame referente a cada página 
+
+2)
+ 
+VER LRU E NRU
+
+Grupo 3)
+
+2) Race condicions ocorrem quando dois processos tentam aceder a um espaço de memória partilhado ao mesmo tempo por exemplo se um processo estiver a ser executado e colocar um valor num certo endereço de memória partilhada e outro processo alterar esse valor pode influênciar a execução do processo. Mutual exclusion é uma técnica utilizada para prevenir race conditions, esta técnica consiste em se um processo está a aceder a um recurso partilhado os outros processos não conseguem utiliza-lo enquanto este processo o estiver a utilizar, isto previne que os valores guardados na secção partilhada de memória não sejam alterados por outros processos durante a sua execução.
+
+Grupo 4
+
+1)
+
+
