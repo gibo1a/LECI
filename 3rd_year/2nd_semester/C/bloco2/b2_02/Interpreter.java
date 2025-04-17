@@ -1,3 +1,5 @@
+import .antlr.CalculatorParser;
+
 @SuppressWarnings("CheckReturnValue")
 public class Interpreter extends SuffixCalculatorBaseVisitor<Double> {
 
@@ -18,7 +20,7 @@ public class Interpreter extends SuffixCalculatorBaseVisitor<Double> {
    @Override public Double visitExprNumber(SuffixCalculatorParser.ExprNumberContext ctx) {
       return Double.parseDouble(ctx.Number().getText());
    }
-
+   
    @Override public Double visitExprSuffix(SuffixCalculatorParser.ExprSuffixContext ctx) {
       Double res = null;
       Double e1 = visit(ctx.expr(0));

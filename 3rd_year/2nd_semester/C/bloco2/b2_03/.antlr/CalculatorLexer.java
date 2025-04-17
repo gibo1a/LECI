@@ -1,4 +1,4 @@
-// Generated from /home/gabriel/Compiladores/bloco2/b2_03/Calculator.g4 by ANTLR 4.13.1
+// Generated from /mnt/c/Users/Gabriel/Desktop/LECI/3rd_year/2nd_semester/C/bloco2/b2_03/Calculator.g4 by ANTLR 4.13.1
 import org.antlr.v4.runtime.Lexer;
 import org.antlr.v4.runtime.CharStream;
 import org.antlr.v4.runtime.Token;
@@ -36,7 +36,7 @@ public class CalculatorLexer extends Lexer {
 
 	private static String[] makeLiteralNames() {
 		return new String[] {
-			null, "'*'", "'/'", "'%'", "'+'", "'-'", "'('", "')'"
+			null, "'+'", "'-'", "'*'", "'/'", "'%'", "'('", "')'"
 		};
 	}
 	private static final String[] _LITERAL_NAMES = makeLiteralNames();
@@ -126,11 +126,11 @@ public class CalculatorLexer extends Lexer {
 		"\u0000\u0000\u0007\u001d\u0001\u0000\u0000\u0000\t\u001f\u0001\u0000\u0000"+
 		"\u0000\u000b!\u0001\u0000\u0000\u0000\r#\u0001\u0000\u0000\u0000\u000f"+
 		"%\u0001\u0000\u0000\u0000\u0011(\u0001\u0000\u0000\u0000\u0013-\u0001"+
-		"\u0000\u0000\u0000\u00153\u0001\u0000\u0000\u0000\u0017\u0018\u0005*\u0000"+
-		"\u0000\u0018\u0002\u0001\u0000\u0000\u0000\u0019\u001a\u0005/\u0000\u0000"+
-		"\u001a\u0004\u0001\u0000\u0000\u0000\u001b\u001c\u0005%\u0000\u0000\u001c"+
-		"\u0006\u0001\u0000\u0000\u0000\u001d\u001e\u0005+\u0000\u0000\u001e\b"+
-		"\u0001\u0000\u0000\u0000\u001f \u0005-\u0000\u0000 \n\u0001\u0000\u0000"+
+		"\u0000\u0000\u0000\u00153\u0001\u0000\u0000\u0000\u0017\u0018\u0005+\u0000"+
+		"\u0000\u0018\u0002\u0001\u0000\u0000\u0000\u0019\u001a\u0005-\u0000\u0000"+
+		"\u001a\u0004\u0001\u0000\u0000\u0000\u001b\u001c\u0005*\u0000\u0000\u001c"+
+		"\u0006\u0001\u0000\u0000\u0000\u001d\u001e\u0005/\u0000\u0000\u001e\b"+
+		"\u0001\u0000\u0000\u0000\u001f \u0005%\u0000\u0000 \n\u0001\u0000\u0000"+
 		"\u0000!\"\u0005(\u0000\u0000\"\f\u0001\u0000\u0000\u0000#$\u0005)\u0000"+
 		"\u0000$\u000e\u0001\u0000\u0000\u0000%&\u0007\u0000\u0000\u0000&\u0010"+
 		"\u0001\u0000\u0000\u0000\')\u0005\r\u0000\u0000(\'\u0001\u0000\u0000\u0000"+
